@@ -21,3 +21,61 @@ body {
     padding-top: 10px;
     right: 5%;  
 }
+
+.hamburgesa {
+    display: none;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    padding-left: 10%;
+    padding-top: 160px;
+    background-image: url("/img/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.main-title {
+    
+    font-size: 50px;
+}
+
+.mini-title {
+    font-weight: bolder;
+    flex-grow: 30px;
+}
+
+.see-recipe {
+    margin-top: 10px;
+    display: flex;
+    border: 3px solid;
+    box-sizing: border-box;
+    justify-content: center;
+    border-radius: 32px;
+    width: 150px;  
+}
+
+.categories  {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.view-catego {
+    opacity: 50%;
+}
+
+.content-catego {
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: lighter;
+}
