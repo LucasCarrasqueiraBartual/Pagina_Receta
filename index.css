@@ -1,5 +1,7 @@
 body {
     font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 .headNav {
@@ -16,6 +18,8 @@ body {
     margin-right: 3%;
 }
 
+
+
 .user {
     position: absolute;
     padding-top: 10px;
@@ -31,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 400px;
-    width: 100%;
+    width: 90%;
     padding-left: 10%;
     padding-top: 160px;
     background-image: url("/img/background.webp");
@@ -58,7 +62,8 @@ body {
     box-sizing: border-box;
     justify-content: center;
     border-radius: 32px;
-    width: 150px;  
+    width: 150px;
+    color: rgb(202, 132, 34);  
 }
 
 .categories  {
@@ -76,6 +81,35 @@ body {
     font-weight: bold;
 }
 
+.recipes {
+    display: flex;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+
+.orangesauce {
+    width: 550px;
+    padding-left: 300px;
+}
+
+.butterscotch {
+    width: 550px;
+}
+
+
+
 h2 {
     font-weight: lighter;
+    margin-left: 50px;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: xx-large;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 10px;
 }
