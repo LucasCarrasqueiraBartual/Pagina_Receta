@@ -7,6 +7,8 @@ body {
 .headNav {
     background-color: antiquewhite;
     display: flex;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -96,7 +98,111 @@ body {
     width: 550px;
 }
 
+.subscribing {
+    display: flex;
+    border-color: rgb(203, 153, 126);
+    border-style: solid;
+    border-radius: 50px;
+    background-color: rgb(203, 153, 126);
+    margin-left: 400px;
+    width: 1200px;
+}
 
+.content-sub {
+    margin: 80px;
+
+}
+
+.subscribeLayout {
+    display: flex;
+    border-color: rgb(220, 188, 166);
+    margin: 100px;
+    margin-top: 140px;
+}
+
+.Subutton {
+    margin-left: 50px;
+    
+    border-color: rgb(255,232,214);
+    border-style: solid;
+    border-radius: 50px;
+    background-color: rgb(255,232,214);
+}
+
+.TextoButton {
+    margin: 10px;
+    width: 120px;
+    margin-left: 80px;
+}
+
+.email {
+    margin-top: 15px;
+}
+
+.pop-recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+    
+    
+   
+    height: 850px;
+    margin-top: 40px;
+    
+}
+
+.healthyText {
+    font-weight: bolder;
+}
+
+.recipesName {
+    
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.titleImportant {
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.firstImg {
+    background-image: url("/img/ButterscotchPie.webp");
+    background-size: cover;
+    width: 700px;
+    align-content:end;
+    padding-bottom: 60px;
+    margin-left: 80px;
+}
+.secondImg {
+
+    background-image: url("/img/OrangeSauce.webp");
+    background-size: cover;
+    width: 700px;
+    align-content:end;
+    padding-bottom: 60px;
+    margin-left: 80px;
+}
+
+.thirdImg {
+    background-image: url("/img/avocadoToasts.webp");
+    background-size: cover;
+    width: 700px;
+    align-content:end;
+    padding-bottom: 60px;
+    margin-left: 80px;
+}
+
+.fourthImg {
+    background-image: url("/img/parfait.webp");
+    background-size: cover;
+    width: 700px;
+    align-content:end;
+    padding-bottom: 60px;
+    margin-left: 80px;
+}
 
 h2 {
     font-weight: lighter;
