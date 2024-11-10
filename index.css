@@ -40,7 +40,7 @@ body {
     width: 90%;
     padding-left: 10%;
     padding-top: 160px;
-    background-image: url("/img/background.webp");
+    background-image: url("img/background.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -71,6 +71,7 @@ body {
 .categories  {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 30px;
 }
 
@@ -104,7 +105,7 @@ body {
     border-style: solid;
     border-radius: 50px;
     background-color: rgb(203, 153, 126);
-    margin-left: 400px;
+    margin-left: 100px;
     width: 1200px;
 }
 
@@ -170,7 +171,7 @@ body {
 }
 
 .firstImg {
-    background-image: url("/img/ButterscotchPie.webp");
+    background-image: url("img/ButterscotchPie.webp");
     background-size: cover;
     width: 700px;
     align-content:end;
@@ -179,7 +180,7 @@ body {
 }
 .secondImg {
 
-    background-image: url("/img/OrangeSauce.webp");
+    background-image: url("img/OrangeSauce.webp");
     background-size: cover;
     width: 700px;
     align-content:end;
@@ -188,7 +189,7 @@ body {
 }
 
 .thirdImg {
-    background-image: url("/img/avocadoToasts.webp");
+    background-image: url("img/avocadoToasts.webp");
     background-size: cover;
     width: 700px;
     align-content:end;
@@ -198,7 +199,7 @@ body {
 }
 
 .fourthImg {
-    background-image: url("/img/parfait.webp");
+    background-image: url("img/parfait.webp");
     background-size: cover;
     width: 700px;
     align-content:end;
@@ -279,6 +280,30 @@ body {
     gap: 10px;
 }
 
+@media (max-width: 684px) {
+    .headers {
+        display: none;
+    }
+
+    .user {
+        display: none;
+    }
+
+    .hamburgesa {
+        display: block;
+        margin-top: 6px;
+        padding-left: 90%;
+        position: fixed;
+        
+    }
+}
+
+@media (max-width: 1315px) {
+    .orangesauce {
+        padding-left: 0px;
+    }
+}
+
 
 h2 {
     font-weight: lighter;
@@ -299,3 +324,5 @@ h4 {
 hr {
     margin: 0px;
 }
+
+
