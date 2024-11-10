@@ -105,8 +105,8 @@ body {
     border-style: solid;
     border-radius: 50px;
     background-color: rgb(203, 153, 126);
-    margin-left: 100px;
-    width: 1200px;
+   padding: 60px;
+   margin: 5%;
 }
 
 .content-sub {
@@ -255,13 +255,20 @@ body {
     margin-left: 85px;
     margin-bottom: 100px;
     display: flex;
+    
     flex-direction: column;
 }
 
 .footerContents {
-    display: flex;
+    display: flex;    
     flex-direction: row;
+    justify-content: space-between ;
     margin-top: 10px;
+}
+
+.categoFooter {
+    display: flex;
+    margin-right: 25px;
 }
 
 .latestRecipesFooter {
@@ -276,8 +283,9 @@ body {
 .linksFlex {
     display: flex;
     flex-direction: row;
-    margin-left: 1100px;
     gap: 10px;
+    margin-right: 30px;
+    
 }
 
 @media (max-width: 684px) {
@@ -304,6 +312,17 @@ body {
     }
 }
 
+
+@media (max-width: 1300px) {
+    .subscribing {
+        flex-direction: column;
+       
+    }
+
+    .subscribeLayout {
+        margin: 50px;
+    }
+}
 
 h2 {
     font-weight: lighter;
